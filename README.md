@@ -6,14 +6,14 @@ The rules are here as our guide to all things Front End at Architect, they are c
 > Every line of code should appear to be written by a single person, no matter the number of contributors.
 [@mdo](https://twitter.com/mdo)
 
-## Rule 1: Use utility classes.
-A .block .with-something .with-something-else
-
-## Rule 2: Contribute.
+## Rule 1: Contribute.
 The rules are not here to be written by one and followed by all, they are written by the team for the team. So contribute your ideas and best practices!
 
-## Rule 3: Use Spaces instead of tabs.
-Always use spaces, never tabs. Ensure everything nested is indented correctly by a single tab in all code including HTML, CSS/Sass and JavaScript.
+## Rule 2: Use Spaces instead of tabs.
+Always use spaces, never tabs. This is to ensure consistency between IDE's. Spacing size should be set to 4. Ensure everything nested is indented correctly by a single tab in all code including HTML, CSS/Sass and JavaScript.
+
+## Rule 3: Use utility classes.
+A .block .with-something .with-something-else
 
 ## Rule 4: Do not use that which is unnecessary.
 Code and Page bloat are easily avoidable, and serve both the developer and the audience to avoid. The more external frameworks we include in our JavaScript the longer each page takes to load, and the more code we have to trawl through when something goes wrong. Usually, there is a micro-library that will do the same thing, if VanillaJS won't.
