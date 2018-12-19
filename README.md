@@ -9,26 +9,26 @@ The rules are here as our guide to all things Front End at Architect, they are c
 ## Rule 1: Use utility classes.
 A .block .with-something .with-something-else
 
-## Rule 5: Contribute.
-The rules are not here to be written by one and followed by all, they are written by the team for the team. So contribute your ideas and best practices! See [How to Contribute](docs/rules-for-contributing.md).
+## Rule 2: Contribute.
+The rules are not here to be written by one and followed by all, they are written by the team for the team. So contribute your ideas and best practices!
 
-## Rule 6: Use Spaces instead of tabs.
+## Rule 3: Use Spaces instead of tabs.
 Always use spaces, never tabs. Ensure everything nested is indented correctly by a single tab in all code including HTML, CSS/Sass and JavaScript.
 
-## Rule 7: Do not use that which is unnecessary.
+## Rule 4: Do not use that which is unnecessary.
 Code and Page bloat are easily avoidable, and serve both the developer and the audience to avoid. The more external frameworks we include in our JavaScript the longer each page takes to load, and the more code we have to trawl through when something goes wrong. Usually, there is a micro-library that will do the same thing, if VanillaJS won't.
 
 This doesn't mean using micro-libraries over jQuery is always the correct option, but should be at least considered on a project specific basis.
 
-## Rule 8: It is what it is
+## Rule 5: It is what it is
 Naming conventions for selectors should be based on what they are rather than what they look like. Class names like `bluetext`, or `redborder` become redundant if your colour scheme changes. A much better way to name your classes is with the role a certain HTML element is intended for in the document.
 
-## Rule 9: Doctype.
+## Rule 6: Doctype.
 **Always** use the HTML5 Doctype:
 
 	<!DOCTYPE html>
 
-## Rule 10: Attribute order
+## Rule 7: Attribute order
 HTML attributes should come in this particular order for easier reading of code.
 
 - src, for, type, href
@@ -47,15 +47,15 @@ To easily understand the markup you're writing, the main attribute of the elemen
 
 	<a href="..." title="..." id="..." class="..."></a>
 
-## Rule 11: * { box-sizing: border-box; }
+## Rule 8: * { box-sizing: border-box; }
 Border box is not default and required far more for responsive layouts than content-box. To save time worrying about when it's included, border-box everything. Use the compass mixin for backward compatibility up to and including IE8. Won't affect speed or anything - using `*` uses just as much memory as any other css.
 
 See [Paul Irish's article](http://www.paulirish.com/2012/box-sizing-border-box-ftw/) for more information.
 
-## Rule 12: The correct number of JavaScript libraries to know is `n+1`
+## Rule 9: The correct number of JavaScript libraries to know is `n+1`
 Most front end developers are familiar with JavaScript and jQuery, but there are now more frameworks than you can shake a stick at! Whether it's Angular, Meteor, Backbone, Ember, Coffeescript, or Node.js there's always something new to learn. The drive of a front end developer should mean there's always more you can learn, whether you have the time or not is another matter, but it's the drive that's important.
 
-## Rule 13: Comments (Sass)
+## Rule 10: Comments (Sass)
 Ensure comments are consistent and beautiful. In SCSS, avoid using `/* */` for single-line/inline comments - use `//` instead.
 
 To break up a section of CSS in a file use the following comment style:
@@ -66,7 +66,7 @@ To break up a section of CSS in a file use the following comment style:
 
 This is a nice and clear method of introducing a new section in a CSS file and comes with the advantage that it won't be processed into the raw CSS.
 
-## Rule 14: Follow the Outside-In order for style definitions
+## Rule 11: Follow the Outside-In order for style definitions
 When defining styles, always follow the Outside-In order. This means:
 
 - Layout Properties (`position`, `float`, `clear`, `display`, `z-index`)
@@ -77,7 +77,7 @@ When defining styles, always follow the Outside-In order. This means:
 
 For more information and an example, this has been slightly modified from an [article by Guy Routledge on WebTuts+](http://webdesign.tutsplus.com/articles/outside-in-ordering-css-properties-by-importance--cms-21685)
 
-## Rule 15: Use whitespace
+## Rule 12: Use whitespace
 Good readability is key for good code, so make whitespace your friend. Leave space around all declarations and rules, and keep tabbing consistent throughout your code.
 
 This:
